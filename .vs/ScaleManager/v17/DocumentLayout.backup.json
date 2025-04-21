@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\raimu\\OneDrive\\Documentos\\Programas\\ScaleManager\\API\\ScaleManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BCD82EA-C2AB-4B58-B92B-AA559717FFBE}|ScaleManager.csproj|c:\\users\\raimu\\onedrive\\documentos\\programas\\scalemanager\\api\\scalemanager\\controllers\\scalecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BCD82EA-C2AB-4B58-B92B-AA559717FFBE}|ScaleManager.csproj|solutionrelative:controllers\\scalecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BCD82EA-C2AB-4B58-B92B-AA559717FFBE}|ScaleManager.csproj|c:\\users\\raimu\\onedrive\\documentos\\programas\\scalemanager\\api\\scalemanager\\controllers\\createministryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BCD82EA-C2AB-4B58-B92B-AA559717FFBE}|ScaleManager.csproj|solutionrelative:controllers\\createministryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BCD82EA-C2AB-4B58-B92B-AA559717FFBE}|ScaleManager.csproj|c:\\users\\raimu\\onedrive\\documentos\\programas\\scalemanager\\api\\scalemanager\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BCD82EA-C2AB-4B58-B92B-AA559717FFBE}|ScaleManager.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BCD82EA-C2AB-4B58-B92B-AA559717FFBE}|ScaleManager.csproj|c:\\users\\raimu\\onedrive\\documentos\\programas\\scalemanager\\api\\scalemanager\\controllers\\assignleaderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BCD82EA-C2AB-4B58-B92B-AA559717FFBE}|ScaleManager.csproj|solutionrelative:controllers\\assignleaderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BCD82EA-C2AB-4B58-B92B-AA559717FFBE}|ScaleManager.csproj|c:\\users\\raimu\\onedrive\\documentos\\programas\\scalemanager\\api\\scalemanager\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BCD82EA-C2AB-4B58-B92B-AA559717FFBE}|ScaleManager.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScaleController.cs",
+              "DocumentMoniker": "C:\\Users\\raimu\\OneDrive\\Documentos\\Programas\\ScaleManager\\API\\ScaleManager\\Controllers\\ScaleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ScaleController.cs",
+              "ToolTip": "C:\\Users\\raimu\\OneDrive\\Documentos\\Programas\\ScaleManager\\API\\ScaleManager\\Controllers\\ScaleController.cs",
+              "RelativeToolTip": "Controllers\\ScaleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T21:54:09.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateMinistryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\raimu\\OneDrive\\Documentos\\Programas\\ScaleManager\\API\\ScaleManager\\Controllers\\CreateMinistryViewModel.cs",
+              "RelativeDocumentMoniker": "Controllers\\CreateMinistryViewModel.cs",
+              "ToolTip": "C:\\Users\\raimu\\OneDrive\\Documentos\\Programas\\ScaleManager\\API\\ScaleManager\\Controllers\\CreateMinistryViewModel.cs",
+              "RelativeToolTip": "Controllers\\CreateMinistryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T21:54:06.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\raimu\\OneDrive\\Documentos\\Programas\\ScaleManager\\API\\ScaleManager\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\raimu\\OneDrive\\Documentos\\Programas\\ScaleManager\\API\\ScaleManager\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T21:52:32.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssignLeaderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\raimu\\OneDrive\\Documentos\\Programas\\ScaleManager\\API\\ScaleManager\\Controllers\\AssignLeaderViewModel.cs",
+              "RelativeDocumentMoniker": "Controllers\\AssignLeaderViewModel.cs",
+              "ToolTip": "C:\\Users\\raimu\\OneDrive\\Documentos\\Programas\\ScaleManager\\API\\ScaleManager\\Controllers\\AssignLeaderViewModel.cs",
+              "RelativeToolTip": "Controllers\\AssignLeaderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T20:26:16.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\raimu\\OneDrive\\Documentos\\Programas\\ScaleManager\\API\\ScaleManager\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\raimu\\OneDrive\\Documentos\\Programas\\ScaleManager\\API\\ScaleManager\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T20:22:53.53Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
