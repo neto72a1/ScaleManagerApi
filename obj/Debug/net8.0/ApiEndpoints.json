@@ -1,5 +1,89 @@
 [
   {
+    "ContainingType": "ScaleManager.Controllers.AdminController",
+    "Method": "AssignLeader",
+    "RelativePath": "api/Admin/assign-leader",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ScaleManager.Controllers.AssignLeaderViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ScaleManager.Controllers.AdminController",
+    "Method": "GetMinistryLeaders",
+    "RelativePath": "api/Admin/leaders/{ministryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ministryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ScaleManager.Controllers.AdminController",
+    "Method": "GetMinistries",
+    "RelativePath": "api/Admin/ministries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ScaleManager.Controllers.AdminController",
+    "Method": "CreateMinistry",
+    "RelativePath": "api/Admin/ministries",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ScaleManager.Controllers.CreateMinistryViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ScaleManager.Controllers.AdminController",
+    "Method": "RemoveLeader",
+    "RelativePath": "api/Admin/remove-leader",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ScaleManager.Controllers.AssignLeaderViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ScaleManager.Controllers.AdminController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Admin/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ScaleManager.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
@@ -40,8 +124,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dates",
-        "Type": "System.Collections.Generic.List\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "request",
+        "Type": "ScaleManager.Controllers.SetGeneralAvailabilityRequest",
         "IsRequired": true
       }
     ],
@@ -54,7 +138,13 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "ministryId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -66,8 +156,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dates",
-        "Type": "System.Collections.Generic.List\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "request",
+        "Type": "ScaleManager.Controllers.SetUserAvailabilityRequest",
         "IsRequired": true
       }
     ],

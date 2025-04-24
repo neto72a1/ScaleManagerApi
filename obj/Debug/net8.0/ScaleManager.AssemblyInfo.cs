@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScaleManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cd9e2b20744c8cbf169b180d553a1cc6b886d53")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScaleManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScaleManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
 using ScaleManager.Data;
 using ScaleManager.Models;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore; // Certifique-se que este using está presente
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Identity;
@@ -8,8 +8,14 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// --- ALTERAÇÃO AQUI ---
+// 1. Obter a connection string
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// 2. Configurar o DbContext para usar MySQL
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+// --- FIM DA ALTERAÇÃO ---
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
@@ -25,7 +31,7 @@ builder.Services.AddAuthentication(options =>
     options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
 }).AddJwtBearer(options =>
 {
-    options.RequireHttpsMetadata = false;
+    options.RequireHttpsMetadata = false; // Considere true para produção se usar HTTPS
     options.SaveToken = true;
     options.TokenValidationParameters = new TokenValidationParameters
     {
@@ -41,16 +47,15 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(builder =>
+    options.AddDefaultPolicy(policyBuilder => // Renomeei 'builder' para 'policyBuilder' para evitar conflito de nome
     {
-        builder.WithOrigins("http://localhost:3000") // Replace with your frontend URL
+        policyBuilder.WithOrigins("http://localhost:8081") // Substitua pela URL do seu frontend
                .AllowAnyHeader()
                .AllowAnyMethod();
     });
 });
 
 // Add services to the container.
-
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -65,10 +70,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
-app.UseCors();
-app.UseAuthentication();
-
+app.UseHttpsRedirection(); // Mantém o redirecionamento HTTPS
+app.UseCors(); // Aplica a política CORS definida acima
+app.UseAuthentication(); // Importante: antes de UseAuthorization
 app.UseAuthorization();
 
 app.MapControllers();

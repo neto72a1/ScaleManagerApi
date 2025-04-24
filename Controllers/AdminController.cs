@@ -171,14 +171,5 @@ namespace ScaleManager.Controllers
         }
     }
 
-    public class CreateMinistryViewModel
-    {
-        public string Name { get; set; }
-    }
-
-    public class AssignLeaderViewModel
-    {
-        public string UserId { get; set; }
-        public int MinistryId { get; set; }
-    }
+   
 }
